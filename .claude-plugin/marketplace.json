@@ -1,0 +1,13 @@
+{
+  "name": "clawd-buddy",
+  "description": "Animated Clawd buddy above the Claude Code prompt",
+  "owner": {
+    "name": "chenyouren0318-glitch"
+  },
+  "plugins": [
+    {
+      "name": "clawd-buddy",
+      "source": "./clawd-buddy"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "clawd-buddy",
+  "version": "0.1.0",
+  "description": "Animated Clawd above the prompt: types while Claude works, idles, gets tired",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "chenyouren0318-glitch"
+  }
+}

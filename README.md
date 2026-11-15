@@ -34,3 +34,33 @@ blender --background --factory-startup --python clawd_sprites.py -- all
 ```bash
 blender --background --factory-startup --python clawd_sprites.py -- idle preview
 ```
+
+## Clawd 介面小外掛（clawd-buddy）
+
+把 Clawd 放在 Claude Code 的輸入框正上方：
+
+| 什麼時候 | Clawd |
+|---|---|
+| Claude 正在工作 | 對著筆電打字 |
+| 閒置 | 輕輕晃動、眨眼 |
+| 超過 10 分鐘沒動靜，或一次工作超過 5 分鐘 | 累到壓扁 |
+
+輸入 `/clawd` 可以隱藏或叫回 Clawd。
+
+**可以顯示的地方：** Claude 桌面 App、手機 App（會動的動畫），以及終端機（靜態圖，需要支援圖片的終端機）。瀏覽器版 claude.ai 目前不會顯示這類外掛。
+
+### 安裝
+
+在 Claude Code 的輸入框輸入：
+
+```
+/plugin install clawd-buddy --marketplace chenyouren0318-glitch/-1
+```
+
+問你是否加入 marketplace 時回答 `y`，再選安裝範圍。
+
+或在終端機（shell）執行：
+
+```bash
+claude plugin install clawd-buddy --marketplace chenyouren0318-glitch/-1
+```
