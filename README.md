@@ -8,6 +8,10 @@
 | `typing` | 16 | 打開筆電，雙手輪流打字 |
 | `tired` | 32 | 身體壓扁、眼睛快閉上、慢慢呼吸 |
 
+| idle | typing | tired |
+|---|---|---|
+| ![idle](previews/idle.gif) | ![typing](previews/typing.gif) | ![tired](previews/tired.gif) |
+
 ## 檔案結構
 
 ```
